@@ -109,6 +109,8 @@ if [ -x /usr/bin/dircolors ]; then
     #alias grep='grep --color=auto'
     #alias fgrep='fgrep --color=auto'
     #alias egrep='egrep --color=auto'
+
+    alias gvim='gvim --remote-tab-silent'||gvim
 fi
 
 # some more ls aliases
