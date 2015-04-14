@@ -15,6 +15,8 @@ if has("gui_running")
   " Maximize gvim window.
   set lines=54 columns=127
   set nu!
+  set tw=120
+  set formatoptions+=t
 endif
 
 if has("autocmd")
