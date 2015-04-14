@@ -13,7 +13,7 @@ set smartindent
 if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
-  set lines=54 columns=127
+  set lines=51 columns=127
   set nu!
   set tw=120
   set formatoptions+=t
